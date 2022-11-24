@@ -1,7 +1,7 @@
 public class Task {
-    public static void main(String[] args) {
+    public void taskOne() {
         long num = 600851475143L;
-        long i = 1;
+        int i = 1;
         while (num != 1) {
             i++;
             if ((num % i) == 0) {
@@ -9,5 +9,5 @@ public class Task {
                 System.out.println(i);
             }
         }
-    }
-}
+
+    }}
